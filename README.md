@@ -1,25 +1,19 @@
 # GET_NEXT_LINE
-This project is about creating a function that reads a file one line at a time. It handles reading with buffers, managing static memory, and assembling lines accross multiple read calls.
 
-## Technologies used
-- Language
-	- C
-- Tools
-	- Makefile
-- Norm
-	- [42 norminette](https://github.com/42school/norminette)
+42 School project aimed at creating a function that reads a file description line by line.
+Following the [42 norm](https://github.com/42school/norminette)
 
-## What I learned
-- Buffer management and string concatenation
-- Handle memory leaks and freeing unused memory
-- Manage multiple file descriptors
+## Skills developed
+- Advanced memory management
+- Single and multiple file handling
+- Pointers
 
 ## How to run
 ```make```
 OR to manage multiple file descriptors at the same time
 ```make bonus```
 
-### Example usage
+### Using it in another C project
 ```C
 #include "get_next_line.h"
 int main(void)
