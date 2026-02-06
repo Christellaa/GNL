@@ -1,6 +1,7 @@
 # GET_NEXT_LINE
 
 42 School project aimed at creating a function that reads a file description line by line.
+
 Following the [42 norm](https://github.com/42school/norminette)
 
 ## Skills developed
